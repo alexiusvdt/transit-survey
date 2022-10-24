@@ -31,6 +31,7 @@
 function handleForm(event) {
   event.preventDefault();
   const userSelections = document.querySelectorAll("input:checked");
+  console.log(userSelections)
   const userSelectionsArray = Array.from(userSelections);
 
   // create results heading
